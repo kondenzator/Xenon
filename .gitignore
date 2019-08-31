@@ -1,0 +1,20 @@
+##################
+# Rules for root #
+
+# IntelliSense browsing database files are not needed
+/*.opensdf
+/*.sdf
+
+
+###############################
+# Rules for Release subfolder #
+
+# Do not commit intermediate files like obj and log files in case of Release configuration of Visual Studio:
+#   ignore everything...
+/Release/*
+#   ...except the compilation result
+!/Release/*.dll
+!/Release/*.exe
+!/Release/*.mix
+
+
