@@ -82,4 +82,5 @@ How to debug Xenon.mix:
 5. Set breakpoints where you want, etc
 6. Debug menu --> Start debugging
 7. Wait some moment, Warcraft 3 will startup with the debugger attached
+
 Be aware that the debugging will overwrite Xenon.mix in the Warcraft 3 folder! (but it doesn't touch Xenon.ini)
