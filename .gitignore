@@ -4,6 +4,10 @@
 # IntelliSense browsing database files are not needed
 /*.opensdf
 /*.sdf
+# User stuff, automatically regenerated on project/solution open
+/*.suo
+/*.vcxproj.user
+/*.user
 
 
 ###############################
