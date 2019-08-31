@@ -2,8 +2,9 @@ Xenon - Warcraft III Garena Hack
 =====
 
 Things to know:
-- Supports patch 1.26b
+- Supports patch 1.26a
 - Compatible with Microsoft Windows XP, Vista, 7, 8 and 8.1
+- Works in Single Player mode with Frozen Throne (not with Reign of Chaos)
 - Undetect in all versions of Garena Plus
 - Do not use Xenon and any other hack togheter
 
