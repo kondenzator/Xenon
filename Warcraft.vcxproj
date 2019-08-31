@@ -44,6 +44,8 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.mix</TargetExt>
     <TargetName>Xenon</TargetName>
+    <ExtensionsToDeleteOnClean>*.mix;*.dll;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
