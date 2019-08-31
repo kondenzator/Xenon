@@ -65,3 +65,10 @@ Camera Distance Set to Default
 Show / Hide Scoreboard (DotA)
 - Backspace
 Clear Screen
+
+How to build the project:
+1. Install Visual Studio 2010 C++ Express
+2. Open Warcraft.sln (VS solution file) or Warcraft.vcxproj (VS project file)
+3. Check if Release configuration is active
+4. Build menu --> Rebuild solution
+5. Optionally compare /Release/Xenon.mix file with its previous version. If you see only ~6 bytes changed in the header, you have successfully rebuilt the mod.
