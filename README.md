@@ -3,17 +3,17 @@ Xenon - Warcraft III Garena Hack
 
 Things to know:
 - Supports patch 1.26a
-- Compatible with Microsoft Windows XP, Vista, 7, 8 and 8.1
+- Compatible with Microsoft Windows XP, Vista, 7, 8, 8.1 and 10
 - Works in Single Player mode with Frozen Throne (not with Reign of Chaos)
-- Undetect in all versions of Garena Plus
-- Do not use Xenon and any other hack togheter
+- Undetected in all versions of Garena Plus
+- Do not use Xenon and any other map hacks togheter
 
 How to use:
 - Simply copy the "Xenon.mix" to your Warcraft III directory.
 Example: "C:\Program Files\Warcraft III"
 - Use "Xenon.ini" to configure the features you want to turn on/off.
-- "Xenon.ini" will be created once you started Warcraft.
-- You have to restart Warcraft for the changes to take effect.
+- "Xenon.ini" will be created once you have started Warcraft for the first time.
+- You have to restart Warcraft for changes to take effect.
 
 Features:
 - Camera Distance Hack
