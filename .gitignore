@@ -6,9 +6,10 @@
 /*.sdf
 # User stuff, automatically regenerated on project/solution open
 /*.suo
-/*.vcxproj.user
-/*.user
+/ipch
 
+# Ignore the whole debug build
+/Debug
 
 ###############################
 # Rules for Release subfolder #
