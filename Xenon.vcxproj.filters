@@ -11,13 +11,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Warcraft.h">
+    <ClInclude Include="Xenon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Warcraft Functions.h">
+    <ClInclude Include="Xenon Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Map Hack.h">
@@ -76,13 +76,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Warcraft.cpp">
+    <ClCompile Include="Xenon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Warcraft Functions.cpp">
+    <ClCompile Include="Xenon Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Map Hack.cpp">

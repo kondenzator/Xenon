@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 extern GAME_ClearTextMessages ClearTextMessages;
 

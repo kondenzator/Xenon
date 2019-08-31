@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 DWORD Storm503 = dwGameDll + 0x6EB5BE;
 DWORD Storm578 = dwGameDll + 0x6EB5A6;

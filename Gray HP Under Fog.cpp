@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 extern DWORD GAME_PlayerIndex;
 

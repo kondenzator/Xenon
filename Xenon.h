@@ -28,5 +28,5 @@ const DWORD dwGameDll = (DWORD)GetModuleHandle("Game.dll");
 #include "Rune Notifier.h"
 #include "SafeClick.h"
 #include "Scoreboard Shortcut Key.h"
-#include "Warcraft Functions.h"
+#include "Xenon Functions.h"
 #include "WoodCutter.h"

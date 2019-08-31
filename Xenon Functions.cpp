@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 DWORD GAME_GlobalClass   = dwGameDll + 0xAB4F80;
 DWORD GAME_PrintToScreen = dwGameDll + 0x2F8E40;

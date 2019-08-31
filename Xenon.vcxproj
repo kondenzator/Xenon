@@ -13,8 +13,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{112DED83-BDA4-4353-A0C5-44D2A8109A61}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Warcraft</RootNamespace>
-    <ProjectName>Warcraft</ProjectName>
+    <RootNamespace>Xenon</RootNamespace>
+    <ProjectName>Xenon</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -33,7 +33,7 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Warcraft.props" />
+    <Import Project="Xenon.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -58,7 +58,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WARCRAFT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;XENON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <MinimalRebuild>false</MinimalRebuild>
@@ -87,7 +87,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;WARCRAFT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;XENON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>
@@ -123,8 +123,8 @@
     <ClInclude Include="Rune Notifier.h" />
     <ClInclude Include="Scoreboard Shortcut Key.h" />
     <ClInclude Include="Instant Game Start.h" />
-    <ClInclude Include="Warcraft Functions.h" />
-    <ClInclude Include="Warcraft.h" />
+    <ClInclude Include="Xenon Functions.h" />
+    <ClInclude Include="Xenon.h" />
     <ClInclude Include="WoodCutter.h" />
   </ItemGroup>
   <ItemGroup>
@@ -146,8 +146,8 @@
     <ClCompile Include="Rune Notifier.cpp" />
     <ClCompile Include="Scoreboard Shortcut Key.cpp" />
     <ClCompile Include="Instant Game Start.cpp" />
-    <ClCompile Include="Warcraft Functions.cpp" />
-    <ClCompile Include="Warcraft.cpp">
+    <ClCompile Include="Xenon Functions.cpp" />
+    <ClCompile Include="Xenon.cpp">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </PrecompiledHeader>

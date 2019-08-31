@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 {

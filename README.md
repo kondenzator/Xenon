@@ -69,15 +69,15 @@ Clear Screen
 How to build the project:
 1. Install Visual Studio 2010 C++ Express
 2. Download or clone the Xenon source
-3. Open Warcraft.sln (VS solution file) or Warcraft.vcxproj (VS project file)
+3. Open Xenon.sln (VS solution file) or Xenon.vcxproj (VS project file)
 4. Check if Release configuration is active
 5. Build menu --> Rebuild solution
 6. Optionally compare /Release/Xenon.mix file with its previous version. If you see only ~6 bytes changed in the header, you have successfully rebuilt the mod.
 
 How to debug Xenon.mix:
-1. In VS browse to Property Manager --> Debug|Win32 --> Warcraft
+1. In VS browse to Property Manager --> Debug|Win32 --> Xenon
 2. Open that Property Page
-3. Under User Macros update the War3_path user macro with the path where your Warcraft 3 installation is found (or just edit Warcraft.props)
+3. Under User Macros update the War3_path user macro with the path where your Warcraft 3 installation is found (or just edit Xenon.props)
 4. Rebuild Debug configuration
 5. Set breakpoints where you want, etc
 6. Debug menu --> Start debugging

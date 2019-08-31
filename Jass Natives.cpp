@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 DWORD GAME_PlayerIndex = dwGameDll + 0xAB65F4;
 

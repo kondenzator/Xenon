@@ -1,4 +1,4 @@
-#include "Warcraft.h"
+#include "Xenon.h"
 
 DWORD g16FF24, g16FF68, a16FF64, a16FF5C, a16FF58, a16FF20, a2C7F10;
 DWORD a16F088;
